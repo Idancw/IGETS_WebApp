@@ -1,0 +1,64 @@
+{
+    "images": [
+        {
+            "tags": [
+                {
+                    "checked": false,
+                    "label": "outdoors"
+                },
+                {
+                    "checked": true,
+                    "label": "indoors"
+                }
+            ],
+            "uri": [
+                "static/Datasets/org_outindoors/images/1.jpg"
+            ]
+        },
+        {
+            "tags": [
+                {
+                    "checked": true,
+                    "label": "outdoors"
+                },
+                {
+                    "checked": false,
+                    "label": "indoors"
+                }
+            ],
+            "uri": [
+                "static/Datasets/org_outindoors/images/2.jpg"
+            ]
+        },
+        {
+            "tags": [
+                {
+                    "checked": false,
+                    "label": "outdoors"
+                },
+                {
+                    "checked": true,
+                    "label": "indoors"
+                }
+            ],
+            "uri": [
+                "static/Datasets/org_outindoors/images/3.jpg"
+            ]
+        },
+        {
+            "tags": [
+                {
+                    "checked": true,
+                    "label": "outdoors"
+                },
+                {
+                    "checked": false,
+                    "label": "indoors"
+                }
+            ],
+            "uri": [
+                "static/Datasets/org_outindoors/images/4.jpg"
+            ]
+        }
+    ]
+}

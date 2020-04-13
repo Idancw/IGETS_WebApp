@@ -1,0 +1,6 @@
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/acInfo.yaml
+		>>> Identical :) 
+	

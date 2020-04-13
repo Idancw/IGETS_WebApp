@@ -1,0 +1,708 @@
+	Case: 1
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_1_TORSO_NC/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_1_TORSO_NC/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_1_TORSO_NC/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_1_TORSO_NC/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 2
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_2_DATSCAN_NC/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_2_DATSCAN_NC/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_2_DATSCAN_NC/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_2_DATSCAN_NC/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 3
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_3_DATSCAN_NC_Radially/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_3_DATSCAN_NC_Radially/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_3_DATSCAN_NC_Radially/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_3_DATSCAN_NC_Radially/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 4
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 5
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 6
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 7
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 8
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 9
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 10
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 11
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 12
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 13
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 14
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 15
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_15_scatter_2_energy_windows/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_15_scatter_2_energy_windows/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_15_scatter_2_energy_windows/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_15_scatter_2_energy_windows/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 16
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_16_scatter_2_energy_windows/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_16_scatter_2_energy_windows/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_16_scatter_2_energy_windows/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_16_scatter_2_energy_windows/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 17
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_17_scatter_2_energy_windows/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_17_scatter_2_energy_windows/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_17_scatter_2_energy_windows/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_17_scatter_2_energy_windows/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 20
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_20_Extremeties_NC/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_20_Extremeties_NC/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_20_Extremeties_NC/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_20_Extremeties_NC/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 21
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_21_Rest_Focus_NC/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_21_Rest_Focus_NC/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_21_Rest_Focus_NC/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_21_Rest_Focus_NC/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 22
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_22_Rest_Focus_NC/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_22_Rest_Focus_NC/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_22_Rest_Focus_NC/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_22_Rest_Focus_NC/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 23
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_23_Rest_Focus_NC/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_23_Rest_Focus_NC/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_23_Rest_Focus_NC/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_23_Rest_Focus_NC/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 24
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_24_Rest_Focus_NC/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_24_Rest_Focus_NC/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_24_Rest_Focus_NC/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_24_Rest_Focus_NC/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 25
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 26
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_26_Parathyr_MIBI_Focus_NC/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_26_Parathyr_MIBI_Focus_NC/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_26_Parathyr_MIBI_Focus_NC/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_26_Parathyr_MIBI_Focus_NC/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 27
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_27_Torso_NC_pixSize2_UNIFORM/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_27_Torso_NC_pixSize2_UNIFORM/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_27_Torso_NC_pixSize2_UNIFORM/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_27_Torso_NC_pixSize2_UNIFORM/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 28
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_28_Torso_NC_pixSize2_Radially/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_28_Torso_NC_pixSize2_Radially/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_28_Torso_NC_pixSize2_Radially/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_28_Torso_NC_pixSize2_Radially/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 29
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 30
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 32
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_32_fast_focus_marking/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_32_fast_focus_marking/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_32_fast_focus_marking/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_32_fast_focus_marking/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 33
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 34
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_34_CardiacTomo/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_34_CardiacTomo/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_34_CardiacTomo/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_34_CardiacTomo/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 43
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 44
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 45
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 46
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 47
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 48
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 49
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_49_SJCZT45P256_apollo_2.46mm_hybridCT_HFS_head180/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_49_SJCZT45P256_apollo_2.46mm_hybridCT_HFS_head180/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 50
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_50_MI_N041_tandem_3.3mm_hybridCT_HFS_noShift/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_50_MI_N041_tandem_3.3mm_hybridCT_HFS_noShift/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 51
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_51_MI_N041_tandem_3.3mm_hybridCT_HFS_head62/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_51_MI_N041_tandem_3.3mm_hybridCT_HFS_head62/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 52
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_52_MI_N041_tandem_3.3mm_hybridCT_HFS_post50_head80/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_52_MI_N041_tandem_3.3mm_hybridCT_HFS_post50_head80/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 53
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_53_Lyon008_apollo_jzk_2.46mm_HFS_noShift/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_53_Lyon008_apollo_jzk_2.46mm_HFS_noShift/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 54
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_54_Lyon008_apollo_jzk_2.46mm_HFS_head20_post-25_left32/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_54_Lyon008_apollo_jzk_2.46mm_HFS_head20_post-25_left32/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 59
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_59_apollo_IEC_2.46mm_FFS_noShift/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_59_apollo_IEC_2.46mm_FFS_noShift/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 60
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_60_apollo_IEC_2.46mm_FFS_head15_post18.7_left-26.4/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_60_apollo_IEC_2.46mm_FFS_head15_post18.7_left-26.4/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 65
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_65_tandem_myocard_4.42mm_FFS_noShift/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 66
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 67
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 68
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 69
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 70
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/acInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 71
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/acInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 72
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/acInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 74
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/acInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 75
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/acInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 76
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/acInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 77
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/acInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 78
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/acInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/reconInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/reconCmd.txt
+		>>> Identical :) 
+	
+	Case: 83
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/acInfo.yaml
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/reconInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/reconInfo.yaml
+		>>> Differences were found!
+	table_height_correction differ: True vs False
+
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/reconCmd.txt
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/reconCmd.txt
+		>>> Identical :) 
+	

@@ -1,0 +1,2820 @@
+	Case: 1
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_1_TORSO_NC/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_1_TORSO_NC/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_1_TORSO_NC/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_1_TORSO_NC/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_1_TORSO_NC/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_1_TORSO_NC/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_1_TORSO_NC/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_1_TORSO_NC/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_1_TORSO_NC/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_1_TORSO_NC/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 2
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_2_DATSCAN_NC/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_2_DATSCAN_NC/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_2_DATSCAN_NC/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_2_DATSCAN_NC/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_2_DATSCAN_NC/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_2_DATSCAN_NC/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_2_DATSCAN_NC/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_2_DATSCAN_NC/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_2_DATSCAN_NC/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_2_DATSCAN_NC/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 3
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_3_DATSCAN_NC_Radially/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_3_DATSCAN_NC_Radially/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_3_DATSCAN_NC_Radially/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_3_DATSCAN_NC_Radially/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_3_DATSCAN_NC_Radially/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_3_DATSCAN_NC_Radially/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_3_DATSCAN_NC_Radially/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_3_DATSCAN_NC_Radially/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_3_DATSCAN_NC_Radially/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_3_DATSCAN_NC_Radially/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 4
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_4_CardiacGated8bins/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_4_CardiacGated8bins/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 5
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/betaWeight.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_5_CardiacGated8bins/temporalFilterMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_5_CardiacGated8bins/temporalFilterMask.bin
+		>>> Identical :) 
+	
+	Case: 6
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/betaWeight.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_6_CardiacGated8bins/temporalFilterMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_6_CardiacGated8bins/temporalFilterMask.bin
+		>>> Identical :) 
+	
+	Case: 7
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_7_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_7_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 8
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_8_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_8_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 9
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_9_CardiacGated8bins/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_9_CardiacGated8bins/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 10
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_10_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_10_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 11
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_11_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_11_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 12
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/scatter_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/scatter_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/scatter_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/scatter_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/scatter_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/scatter_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/scatter_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/scatter_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/scatter_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/scatter_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/scatter_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/scatter_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/scatter_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/scatter_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/scatter_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/scatter_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_12_CardiacGated8bins/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_12_CardiacGated8bins/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 13
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/scatter_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/scatter_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/scatter_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/scatter_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/scatter_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/scatter_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/scatter_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/scatter_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/scatter_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/scatter_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/scatter_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/scatter_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/scatter_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/scatter_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/scatter_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/scatter_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_13_CardiacGated8bins/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_13_CardiacGated8bins/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 14
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/scatter_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/scatter_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/scatter_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/scatter_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/scatter_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/scatter_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/scatter_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/scatter_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/scatter_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/scatter_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/scatter_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/scatter_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/scatter_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/scatter_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/scatter_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/scatter_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_14_CardiacGated8bins/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_14_CardiacGated8bins/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 15
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_15_scatter_2_energy_windows/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_15_scatter_2_energy_windows/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_15_scatter_2_energy_windows/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_15_scatter_2_energy_windows/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_15_scatter_2_energy_windows/scatter.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_15_scatter_2_energy_windows/scatter.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_15_scatter_2_energy_windows/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_15_scatter_2_energy_windows/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_15_scatter_2_energy_windows/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_15_scatter_2_energy_windows/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 16
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_16_scatter_2_energy_windows/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_16_scatter_2_energy_windows/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_16_scatter_2_energy_windows/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_16_scatter_2_energy_windows/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_16_scatter_2_energy_windows/scatter.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_16_scatter_2_energy_windows/scatter.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_16_scatter_2_energy_windows/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_16_scatter_2_energy_windows/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_16_scatter_2_energy_windows/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_16_scatter_2_energy_windows/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 17
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_17_scatter_2_energy_windows/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_17_scatter_2_energy_windows/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_17_scatter_2_energy_windows/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_17_scatter_2_energy_windows/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_17_scatter_2_energy_windows/scatter.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_17_scatter_2_energy_windows/scatter.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_17_scatter_2_energy_windows/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_17_scatter_2_energy_windows/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_17_scatter_2_energy_windows/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_17_scatter_2_energy_windows/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 20
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_20_Extremeties_NC/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_20_Extremeties_NC/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_20_Extremeties_NC/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_20_Extremeties_NC/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_20_Extremeties_NC/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_20_Extremeties_NC/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_20_Extremeties_NC/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_20_Extremeties_NC/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 21
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_21_Rest_Focus_NC/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_21_Rest_Focus_NC/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_21_Rest_Focus_NC/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_21_Rest_Focus_NC/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_21_Rest_Focus_NC/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_21_Rest_Focus_NC/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_21_Rest_Focus_NC/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_21_Rest_Focus_NC/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 22
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_22_Rest_Focus_NC/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_22_Rest_Focus_NC/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_22_Rest_Focus_NC/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_22_Rest_Focus_NC/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_22_Rest_Focus_NC/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_22_Rest_Focus_NC/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_22_Rest_Focus_NC/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_22_Rest_Focus_NC/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_22_Rest_Focus_NC/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_22_Rest_Focus_NC/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 23
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_23_Rest_Focus_NC/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_23_Rest_Focus_NC/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_23_Rest_Focus_NC/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_23_Rest_Focus_NC/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_23_Rest_Focus_NC/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_23_Rest_Focus_NC/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_23_Rest_Focus_NC/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_23_Rest_Focus_NC/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 24
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_24_Rest_Focus_NC/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_24_Rest_Focus_NC/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_24_Rest_Focus_NC/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_24_Rest_Focus_NC/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_24_Rest_Focus_NC/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_24_Rest_Focus_NC/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_24_Rest_Focus_NC/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_24_Rest_Focus_NC/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 25
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_25_Parathyr_MIBI_Focus_NC_Uniform/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 26
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_26_Parathyr_MIBI_Focus_NC/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_26_Parathyr_MIBI_Focus_NC/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_26_Parathyr_MIBI_Focus_NC/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_26_Parathyr_MIBI_Focus_NC/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_26_Parathyr_MIBI_Focus_NC/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_26_Parathyr_MIBI_Focus_NC/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_26_Parathyr_MIBI_Focus_NC/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_26_Parathyr_MIBI_Focus_NC/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_26_Parathyr_MIBI_Focus_NC/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_26_Parathyr_MIBI_Focus_NC/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 27
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_27_Torso_NC_pixSize2_UNIFORM/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_27_Torso_NC_pixSize2_UNIFORM/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_27_Torso_NC_pixSize2_UNIFORM/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_27_Torso_NC_pixSize2_UNIFORM/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_27_Torso_NC_pixSize2_UNIFORM/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_27_Torso_NC_pixSize2_UNIFORM/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_27_Torso_NC_pixSize2_UNIFORM/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_27_Torso_NC_pixSize2_UNIFORM/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 28
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_28_Torso_NC_pixSize2_Radially/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_28_Torso_NC_pixSize2_Radially/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_28_Torso_NC_pixSize2_Radially/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_28_Torso_NC_pixSize2_Radially/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_28_Torso_NC_pixSize2_Radially/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_28_Torso_NC_pixSize2_Radially/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_28_Torso_NC_pixSize2_Radially/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_28_Torso_NC_pixSize2_Radially/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_28_Torso_NC_pixSize2_Radially/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_28_Torso_NC_pixSize2_Radially/betaWeight.bin
+		>>> Identical :) 
+	
+	Case: 29
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_9.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_9.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_10.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_10.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_11.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_11.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_12.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_12.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_13.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_13.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_14.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_14.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_15.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_15.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/projection_G_16.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/projection_G_16.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_9.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_9.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_10.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_10.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_11.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_11.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_12.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_12.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_13.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_13.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_14.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_14.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_15.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_15.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/pixelWeights_G_16.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/pixelWeights_G_16.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_29_CardiacGated16bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_29_CardiacGated16bins/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 30
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_9.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_9.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_10.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_10.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_11.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_11.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_12.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_12.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_13.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_13.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_14.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_14.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_15.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_15.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/projection_G_16.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/projection_G_16.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_9.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_9.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_10.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_10.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_11.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_11.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_12.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_12.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_13.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_13.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_14.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_14.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_15.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_15.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/pixelWeights_G_16.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/pixelWeights_G_16.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/sliceMask.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/betaWeight.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/betaWeight.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_30_CardiacGated16bins/temporalFilterMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_30_CardiacGated16bins/temporalFilterMask.bin
+		>>> Identical :) 
+	
+	Case: 32
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_32_fast_focus_marking/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_32_fast_focus_marking/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_32_fast_focus_marking/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_32_fast_focus_marking/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_32_fast_focus_marking/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_32_fast_focus_marking/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_32_fast_focus_marking/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_32_fast_focus_marking/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 33
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/projection_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/projection_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/projection_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/projection_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/projection_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/projection_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/projection_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/projection_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/projection_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/projection_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/projection_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/projection_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/projection_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/projection_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/projection_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/projection_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/pixelWeights_G_1.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/pixelWeights_G_1.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/pixelWeights_G_2.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/pixelWeights_G_2.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/pixelWeights_G_3.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/pixelWeights_G_3.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/pixelWeights_G_4.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/pixelWeights_G_4.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/pixelWeights_G_5.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/pixelWeights_G_5.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/pixelWeights_G_6.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/pixelWeights_G_6.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/pixelWeights_G_7.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/pixelWeights_G_7.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/pixelWeights_G_8.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/pixelWeights_G_8.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_33_CardiacGated8bins/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_33_CardiacGated8bins/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 34
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_34_CardiacTomo/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_34_CardiacTomo/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_34_CardiacTomo/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_34_CardiacTomo/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_34_CardiacTomo/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_34_CardiacTomo/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_34_CardiacTomo/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_34_CardiacTomo/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 43
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 44
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 45
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 46
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 47
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 48
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 49
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_49_SJCZT45P256_apollo_2.46mm_hybridCT_HFS_head180/ac_map_256x256x256.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_49_SJCZT45P256_apollo_2.46mm_hybridCT_HFS_head180/ac_map_256x256x256.bin
+		>>> Identical :) 
+	
+	Case: 50
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_50_MI_N041_tandem_3.3mm_hybridCT_HFS_noShift/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_50_MI_N041_tandem_3.3mm_hybridCT_HFS_noShift/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 51
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_51_MI_N041_tandem_3.3mm_hybridCT_HFS_head62/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_51_MI_N041_tandem_3.3mm_hybridCT_HFS_head62/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 52
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_52_MI_N041_tandem_3.3mm_hybridCT_HFS_post50_head80/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_52_MI_N041_tandem_3.3mm_hybridCT_HFS_post50_head80/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 53
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_53_Lyon008_apollo_jzk_2.46mm_HFS_noShift/ac_map_256x256x256.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_53_Lyon008_apollo_jzk_2.46mm_HFS_noShift/ac_map_256x256x256.bin
+		>>> Identical :) 
+	
+	Case: 54
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_54_Lyon008_apollo_jzk_2.46mm_HFS_head20_post-25_left32/ac_map_256x256x256.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_54_Lyon008_apollo_jzk_2.46mm_HFS_head20_post-25_left32/ac_map_256x256x256.bin
+		>>> Identical :) 
+	
+	Case: 59
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_59_apollo_IEC_2.46mm_FFS_noShift/ac_map_256x256x256.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_59_apollo_IEC_2.46mm_FFS_noShift/ac_map_256x256x256.bin
+		>>> Identical :) 
+	
+	Case: 60
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_60_apollo_IEC_2.46mm_FFS_head15_post18.7_left-26.4/ac_map_256x256x256.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_60_apollo_IEC_2.46mm_FFS_head15_post18.7_left-26.4/ac_map_256x256x256.bin
+		>>> Identical :) 
+	
+	Case: 65
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_65_tandem_myocard_4.42mm_FFS_noShift/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 66
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 67
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 68
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 69
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 70
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/ac_map_210x210x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/ac_map_210x210x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 71
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/ac_map_218x218x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/ac_map_218x218x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 72
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/ac_map_118x118x56.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/ac_map_118x118x56.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 74
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/ac_map_208x208x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/ac_map_208x208x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 75
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/ac_map_132x132x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/ac_map_132x132x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 76
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/ac_map_132x132x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/ac_map_132x132x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 77
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/ac_map_110x110x56.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/ac_map_110x110x56.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 78
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/ac_map_110x110x56.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/ac_map_110x110x56.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 83
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/ac_map_200x200x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/ac_map_200x200x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.22/galgadot_20200326_174600/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/sliceMask.bin
+		>>> Identical :) 
+	
+	Precise

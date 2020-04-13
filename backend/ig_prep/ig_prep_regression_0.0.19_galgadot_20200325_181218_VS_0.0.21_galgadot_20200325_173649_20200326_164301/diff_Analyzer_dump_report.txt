@@ -1,0 +1,14 @@
+	Case: 43
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/acInfo.yaml
+		>>> Identical :) 
+	
+	Case: 44
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/acInfo.yaml
+		>>> Identical :) 
+	

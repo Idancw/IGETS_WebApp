@@ -1,0 +1,356 @@
+	Case: 43
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 44
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 45
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 46
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 47
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 48
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 65
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_65_tandem_myocard_4.42mm_FFS_noShift/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 66
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 67
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 68
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 69
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/ac_map_128x128x128.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/ac_map_128x128x128.bin
+		>>> Identical :) 
+	
+	Case: 70
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/ac_map_210x210x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/ac_map_210x210x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 71
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/ac_map_218x218x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/ac_map_218x218x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 72
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/ac_map_118x118x56.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/ac_map_118x118x56.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 74
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/ac_map_208x208x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/ac_map_208x208x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 75
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/ac_map_132x132x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/ac_map_132x132x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 76
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/ac_map_132x132x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/ac_map_132x132x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 77
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/ac_map_110x110x56.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/ac_map_110x110x56.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 78
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/ac_map_110x110x56.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/ac_map_110x110x56.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/sliceMask.bin
+		>>> Identical :) 
+	
+	Case: 83
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/acquisition.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/acquisition.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/projection.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/projection.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/pixelWeights.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/pixelWeights.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/ac_map_200x200x112.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/ac_map_200x200x112.bin
+		>>> Identical :) 
+	
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/sliceMask.bin
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/sliceMask.bin
+		>>> Identical :) 
+	

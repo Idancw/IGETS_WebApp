@@ -1,0 +1,777 @@
+<pre>2020-03-25 18:12:20| Info:	| Regression execution properties: 
+	Total Threads: <b>max</b>
+	Threads Per Rotation: <b>16</b>
+	Threads Per SM: <b>1</b>
+	Released Recon Binary: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	Candidate Recon Bin: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	Number Of Iterations: <b></b>
+	Output Directory: <b>/data/GPC/examinations/regression/ig_prep/ig_prep_regression_0.0.19_galgadot_20200325_181218_VS_0.0.21_galgadot_20200325_173649_20200325_181218/</b>
+	Golden Directory: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	Candidate Directory: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	Test Cases Path: <b>/usr/local/ge/opt/RETS/etc/ig_prep/test_cases/</b>
+	Data Path: <b>None</b></pre>
+<pre>2020-03-25 18:12:20| Info:	| Regression cores execution info: 
+	Maximum Cores allocation: <b>16</b>
+	Rotation recon in parallel: <b>1</b>
+	SM recon in parallel: <b>16</b></pre>
+<pre>2020-03-25 18:12:20| Info:	| Host: galgadot</pre>
+<pre>2020-03-25 18:12:20| Debug:	| Filter section: 
+	Include Filter: <b>['caseID=43, 44, 45, 46, 47, 48, 65, 66, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 83']</b>  Exclude Filter: <b>['none']</b>  Multiply Factor: <b>['none']</b>  Delete Factor: <b>['none']</pre>
+<pre>2020-03-25 18:12:20| Debug:	| new BRUCI object has been generated with the following elements: 
+	</b>
+	Yaml files after filter: <b>['/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml', '/usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml']</b></pre>
+<pre>2020-03-25 18:12:22| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml
+	<b>autoName: </b>case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</pre>
+<pre>2020-03-25 18:12:22| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift added to List</pre>
+<pre>2020-03-25 18:12:22| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml
+	<b>autoName: </b>case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml
+	<b>autoName: </b>case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml
+	<b>autoName: </b>case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml
+	<b>autoName: </b>case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml
+	<b>autoName: </b>case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_65_tandem_myocard_4.42mm_FFS_noShift.yml
+	<b>autoName: </b>case_65_tandem_myocard_4.42mm_FFS_noShift
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o case_65_tandem_myocard_4.42mm_FFS_noShift
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o case_65_tandem_myocard_4.42mm_FFS_noShift</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o case_65_tandem_myocard_4.42mm_FFS_noShift added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o case_65_tandem_myocard_4.42mm_FFS_noShift added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml
+	<b>autoName: </b>case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml
+	<b>autoName: </b>case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15 added to List</pre>
+<pre>2020-03-25 18:12:23| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15 added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml
+	<b>autoName: </b>case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653 added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653 added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml
+	<b>autoName: </b>case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2 added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2 added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml
+	<b>autoName: </b>case_70_SG_torso_2.46mm_hybridCT_FFS_vqc
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o case_70_SG_torso_2.46mm_hybridCT_FFS_vqc
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o case_70_SG_torso_2.46mm_hybridCT_FFS_vqc added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o case_70_SG_torso_2.46mm_hybridCT_FFS_vqc added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml
+	<b>autoName: </b>case_71_SG_torso_2.46mm_hybridCT_HFS_vqc
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o case_71_SG_torso_2.46mm_hybridCT_HFS_vqc
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o case_71_SG_torso_2.46mm_hybridCT_HFS_vqc added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o case_71_SG_torso_2.46mm_hybridCT_HFS_vqc added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml
+	<b>autoName: </b>case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml
+	<b>autoName: </b>case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml
+	<b>autoName: </b>case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml
+	<b>autoName: </b>case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY added to List</pre>
+<pre>2020-03-25 18:12:24| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY added to List</pre>
+<pre>2020-03-25 18:12:25| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml
+	<b>autoName: </b>case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</pre>
+<pre>2020-03-25 18:12:25| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ added to List</pre>
+<pre>2020-03-25 18:12:25| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ added to List</pre>
+<pre>2020-03-25 18:12:25| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml
+	<b>autoName: </b>case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</pre>
+<pre>2020-03-25 18:12:25| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ added to List</pre>
+<pre>2020-03-25 18:12:25| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ added to List</pre>
+<pre>2020-03-25 18:12:25| Debug:	| <b>Original Submit Info: </b>
+	<b>case name: </b>case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml
+	<b>autoName: </b>case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS
+	<b>released command: </b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS
+	<b>candidate command: </b>/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</pre>
+<pre>2020-03-25 18:12:25| Debug:	| /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS added to List</pre>
+<pre>2020-03-25 18:12:25| Debug:	| /bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS added to List</pre>
+<pre>2020-03-25 18:12:25| Debug:	| Before Execution: 2020-03-25 18:12:25-case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</pre>
+<pre>2020-03-25 18:12:25| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.txt</b></pre>
+<pre>2020-03-25 18:12:25| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</pre>
+<pre>2020-03-25 18:12:39| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShiftIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:12:39| Debug:	| Execution Ended: 2020-03-25 18:12:39-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift. Result: Pass</pre>
+<pre>2020-03-25 18:12:39| Debug:	| Before Execution: 2020-03-25 18:12:39-case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</pre>
+<pre>2020-03-25 18:12:39| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.txt</b></pre>
+<pre>2020-03-25 18:12:39| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ Already exist</pre>
+<pre>2020-03-25 18:12:39| Debug:	| Execution Ended: 2020-03-25 18:12:39-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift. Result: Skip</pre>
+<pre>2020-03-25 18:12:39| Debug:	| Before Execution: 2020-03-25 18:12:39-case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</pre>
+<pre>2020-03-25 18:12:39| Debug:	| Compare contents of UC: case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</pre>
+<pre>2020-03-25 18:12:40| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.txt</b></pre>
+<pre>2020-03-25 18:12:40| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:12:40| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</pre>
+<pre>2020-03-25 18:12:40| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/acInfo.yaml</pre>
+<pre>2020-03-25 18:12:40| Debug:	| line start with case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml.. will be removed</pre>
+<pre>2020-03-25 18:12:41| Info:	| Compare Passed in Case case_43_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml</pre>
+<pre>2020-03-25 18:12:55| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118IG_Prep ended successfully</pre>
+<pre>2020-03-25 18:12:55| Debug:	| Execution Ended: 2020-03-25 18:12:55-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118. Result: Pass</pre>
+<pre>2020-03-25 18:12:55| Debug:	| Before Execution: 2020-03-25 18:12:55-case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</pre>
+<pre>2020-03-25 18:12:55| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.txt</b></pre>
+<pre>2020-03-25 18:12:55| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/ Already exist</pre>
+<pre>2020-03-25 18:12:55| Debug:	| Execution Ended: 2020-03-25 18:12:55-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118. Result: Skip</pre>
+<pre>2020-03-25 18:12:55| Debug:	| Before Execution: 2020-03-25 18:12:55-case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</pre>
+<pre>2020-03-25 18:12:55| Debug:	| Compare contents of UC: case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118</pre>
+<pre>2020-03-25 18:12:55| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.txt</b></pre>
+<pre>2020-03-25 18:12:55| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:12:55| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</pre>
+<pre>2020-03-25 18:12:56| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118/acInfo.yaml</pre>
+<pre>2020-03-25 18:12:56| Debug:	| line start with case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml.. will be removed</pre>
+<pre>2020-03-25 18:12:56| Info:	| Compare Passed in Case case_44_MI_L055_apollo_4.42mm_hybridCT_FFS_head118.yml</pre>
+<pre>2020-03-25 18:13:10| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShiftIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:13:11| Debug:	| Execution Ended: 2020-03-25 18:13:11-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift. Result: Pass</pre>
+<pre>2020-03-25 18:13:11| Debug:	| Before Execution: 2020-03-25 18:13:11-case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</pre>
+<pre>2020-03-25 18:13:11| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.txt</b></pre>
+<pre>2020-03-25 18:13:11| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ Already exist</pre>
+<pre>2020-03-25 18:13:11| Debug:	| Execution Ended: 2020-03-25 18:13:11-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift. Result: Skip</pre>
+<pre>2020-03-25 18:13:11| Debug:	| Before Execution: 2020-03-25 18:13:11-case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</pre>
+<pre>2020-03-25 18:13:11| Debug:	| Compare contents of UC: case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift</pre>
+<pre>2020-03-25 18:13:11| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.txt</b></pre>
+<pre>2020-03-25 18:13:11| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:13:11| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</pre>
+<pre>2020-03-25 18:13:11| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift/acInfo.yaml</pre>
+<pre>2020-03-25 18:13:12| Debug:	| line start with case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml.. will be removed</pre>
+<pre>2020-03-25 18:13:12| Info:	| Compare Passed in Case case_45_MI_L055_apollo_4.42mm_hybridCT_FFS_noShift.yml</pre>
+<pre>2020-03-25 18:13:26| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100IG_Prep ended successfully</pre>
+<pre>2020-03-25 18:13:26| Debug:	| Execution Ended: 2020-03-25 18:13:26-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100. Result: Pass</pre>
+<pre>2020-03-25 18:13:26| Debug:	| Before Execution: 2020-03-25 18:13:26-case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</pre>
+<pre>2020-03-25 18:13:26| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.txt</b></pre>
+<pre>2020-03-25 18:13:26| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/ Already exist</pre>
+<pre>2020-03-25 18:13:26| Debug:	| Execution Ended: 2020-03-25 18:13:26-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100. Result: Skip</pre>
+<pre>2020-03-25 18:13:26| Debug:	| Before Execution: 2020-03-25 18:13:26-case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</pre>
+<pre>2020-03-25 18:13:26| Debug:	| Compare contents of UC: case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100</pre>
+<pre>2020-03-25 18:13:26| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.txt</b></pre>
+<pre>2020-03-25 18:13:26| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:13:26| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</pre>
+<pre>2020-03-25 18:13:27| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100/acInfo.yaml</pre>
+<pre>2020-03-25 18:13:27| Debug:	| line start with case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml.. will be removed</pre>
+<pre>2020-03-25 18:13:27| Info:	| Compare Passed in Case case_46_MI_L055_apollo_4.42mm_hybridCT_FFS_head-100.yml</pre>
+<pre>2020-03-25 18:13:42| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100IG_Prep ended successfully</pre>
+<pre>2020-03-25 18:13:42| Debug:	| Execution Ended: 2020-03-25 18:13:42-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100. Result: Pass</pre>
+<pre>2020-03-25 18:13:42| Debug:	| Before Execution: 2020-03-25 18:13:42-case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</pre>
+<pre>2020-03-25 18:13:42| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.txt</b></pre>
+<pre>2020-03-25 18:13:42| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/ Already exist</pre>
+<pre>2020-03-25 18:13:42| Debug:	| Execution Ended: 2020-03-25 18:13:42-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100. Result: Skip</pre>
+<pre>2020-03-25 18:13:42| Debug:	| Before Execution: 2020-03-25 18:13:42-case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</pre>
+<pre>2020-03-25 18:13:42| Debug:	| Compare contents of UC: case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100</pre>
+<pre>2020-03-25 18:13:42| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.txt</b></pre>
+<pre>2020-03-25 18:13:42| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:13:42| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</pre>
+<pre>2020-03-25 18:13:43| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100/acInfo.yaml</pre>
+<pre>2020-03-25 18:13:43| Debug:	| line start with case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml.. will be removed</pre>
+<pre>2020-03-25 18:13:43| Info:	| Compare Passed in Case case_47_MI_L055_apollo_4.42mm_hybridCT_FFS_post50_left100.yml</pre>
+<pre>2020-03-25 18:13:58| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600IG_Prep ended successfully</pre>
+<pre>2020-03-25 18:13:58| Debug:	| Execution Ended: 2020-03-25 18:13:58-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600. Result: Pass</pre>
+<pre>2020-03-25 18:13:58| Debug:	| Before Execution: 2020-03-25 18:13:58-case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</pre>
+<pre>2020-03-25 18:13:58| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.txt</b></pre>
+<pre>2020-03-25 18:13:58| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/ Already exist</pre>
+<pre>2020-03-25 18:13:58| Debug:	| Execution Ended: 2020-03-25 18:13:58-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600. Result: Skip</pre>
+<pre>2020-03-25 18:13:58| Debug:	| Before Execution: 2020-03-25 18:13:58-case_65_tandem_myocard_4.42mm_FFS_noShift-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o case_65_tandem_myocard_4.42mm_FFS_noShift</pre>
+<pre>2020-03-25 18:13:58| Debug:	| Compare contents of UC: case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600</pre>
+<pre>2020-03-25 18:13:58| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_65_tandem_myocard_4.42mm_FFS_noShift</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_65_tandem_myocard_4.42mm_FFS_noShift</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_65_tandem_myocard_4.42mm_FFS_noShift</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_65_tandem_myocard_4.42mm_FFS_noShift.txt</b></pre>
+<pre>2020-03-25 18:13:58| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:13:58| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_65_tandem_myocard_4.42mm_FFS_noShift</pre>
+<pre>2020-03-25 18:13:58| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600/acInfo.yaml</pre>
+<pre>2020-03-25 18:13:59| Debug:	| line start with case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml.. will be removed</pre>
+<pre>2020-03-25 18:13:59| Info:	| Compare Passed in Case case_48_MI_L055_apollo_4.42mm_hybridCT_FFS_post600.yml</pre>
+<pre>2020-03-25 18:14:03| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_65_tandem_myocard_4.42mm_FFS_noShiftIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:04| Debug:	| Execution Ended: 2020-03-25 18:14:04-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_65_tandem_myocard_4.42mm_FFS_noShift. Result: Pass</pre>
+<pre>2020-03-25 18:14:04| Debug:	| Before Execution: 2020-03-25 18:14:04-case_65_tandem_myocard_4.42mm_FFS_noShift-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o case_65_tandem_myocard_4.42mm_FFS_noShift</pre>
+<pre>2020-03-25 18:14:04| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_65_tandem_myocard_4.42mm_FFS_noShift</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_65_tandem_myocard_4.42mm_FFS_noShift.txt</b></pre>
+<pre>2020-03-25 18:14:04| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift/ Already exist</pre>
+<pre>2020-03-25 18:14:04| Debug:	| Execution Ended: 2020-03-25 18:14:04-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_65_tandem_myocard_4.42mm_FFS_noShift.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift. Result: Skip</pre>
+<pre>2020-03-25 18:14:04| Debug:	| Compare contents of UC: case_65_tandem_myocard_4.42mm_FFS_noShift.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_65_tandem_myocard_4.42mm_FFS_noShift
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift</pre>
+<pre>2020-03-25 18:14:04| Debug:	| Before Execution: 2020-03-25 18:14:04-case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</pre>
+<pre>2020-03-25 18:14:04| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_65_tandem_myocard_4.42mm_FFS_noShift/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:14:04| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.txt</b></pre>
+<pre>2020-03-25 18:14:04| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</pre>
+<pre>2020-03-25 18:14:05| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_65_tandem_myocard_4.42mm_FFS_noShift/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift/acInfo.yaml</pre>
+<pre>2020-03-25 18:14:05| Debug:	| line start with case_65_tandem_myocard_4.42mm_FFS_noShift.yml.. will be removed</pre>
+<pre>2020-03-25 18:14:05| Info:	| Compare Passed in Case case_65_tandem_myocard_4.42mm_FFS_noShift.yml</pre>
+<pre>2020-03-25 18:14:10| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33IG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:10| Debug:	| Execution Ended: 2020-03-25 18:14:10-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33. Result: Pass</pre>
+<pre>2020-03-25 18:14:10| Debug:	| Before Execution: 2020-03-25 18:14:10-case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</pre>
+<pre>2020-03-25 18:14:10| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.txt</b></pre>
+<pre>2020-03-25 18:14:10| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/ Already exist</pre>
+<pre>2020-03-25 18:14:10| Debug:	| Execution Ended: 2020-03-25 18:14:10-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33. Result: Skip</pre>
+<pre>2020-03-25 18:14:10| Debug:	| Before Execution: 2020-03-25 18:14:10-case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</pre>
+<pre>2020-03-25 18:14:10| Debug:	| Compare contents of UC: case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33</pre>
+<pre>2020-03-25 18:14:10| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.txt</b></pre>
+<pre>2020-03-25 18:14:10| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:14:10| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</pre>
+<pre>2020-03-25 18:14:11| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33/acInfo.yaml</pre>
+<pre>2020-03-25 18:14:11| Debug:	| line start with case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml.. will be removed</pre>
+<pre>2020-03-25 18:14:11| Info:	| Compare Passed in Case case_66_tandem_myocard_4.42mm_FFS_head16_post25_left-33.yml</pre>
+<pre>2020-03-25 18:14:16| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15IG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:16| Debug:	| Execution Ended: 2020-03-25 18:14:16-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15. Result: Pass</pre>
+<pre>2020-03-25 18:14:16| Debug:	| Before Execution: 2020-03-25 18:14:16-case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</pre>
+<pre>2020-03-25 18:14:16| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.txt</b></pre>
+<pre>2020-03-25 18:14:16| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/ Already exist</pre>
+<pre>2020-03-25 18:14:17| Debug:	| Execution Ended: 2020-03-25 18:14:17-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15. Result: Skip</pre>
+<pre>2020-03-25 18:14:17| Debug:	| Before Execution: 2020-03-25 18:14:17-case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</pre>
+<pre>2020-03-25 18:14:17| Debug:	| Compare contents of UC: case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15</pre>
+<pre>2020-03-25 18:14:17| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.txt</b></pre>
+<pre>2020-03-25 18:14:17| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</pre>
+<pre>2020-03-25 18:14:17| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:14:17| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15/acInfo.yaml</pre>
+<pre>2020-03-25 18:14:18| Debug:	| line start with case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml.. will be removed</pre>
+<pre>2020-03-25 18:14:18| Info:	| Compare Passed in Case case_67_tandem_myocard_4.42mm_FFS_head-18.5_post-3_left26_roll5_azim12_elev-15.yml</pre>
+<pre>2020-03-25 18:14:23| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653IG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:23| Debug:	| Execution Ended: 2020-03-25 18:14:23-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653. Result: Pass</pre>
+<pre>2020-03-25 18:14:23| Debug:	| Before Execution: 2020-03-25 18:14:23-case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</pre>
+<pre>2020-03-25 18:14:23| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.txt</b></pre>
+<pre>2020-03-25 18:14:23| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/ Already exist</pre>
+<pre>2020-03-25 18:14:23| Debug:	| Execution Ended: 2020-03-25 18:14:23-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653. Result: Skip</pre>
+<pre>2020-03-25 18:14:23| Debug:	| Before Execution: 2020-03-25 18:14:23-case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</pre>
+<pre>2020-03-25 18:14:23| Debug:	| Compare contents of UC: case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653</pre>
+<pre>2020-03-25 18:14:23| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.txt</b></pre>
+<pre>2020-03-25 18:14:23| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:14:23| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</pre>
+<pre>2020-03-25 18:14:24| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653/acInfo.yaml</pre>
+<pre>2020-03-25 18:14:24| Debug:	| line start with case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml.. will be removed</pre>
+<pre>2020-03-25 18:14:24| Info:	| Compare Passed in Case case_68_tandem_IEC_4.42mm_externalCT_FFS_head-653.yml</pre>
+<pre>2020-03-25 18:14:29| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2IG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:29| Debug:	| Execution Ended: 2020-03-25 18:14:29-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2. Result: Pass</pre>
+<pre>2020-03-25 18:14:29| Debug:	| Before Execution: 2020-03-25 18:14:29-case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</pre>
+<pre>2020-03-25 18:14:29| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.txt</b></pre>
+<pre>2020-03-25 18:14:29| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/ Already exist</pre>
+<pre>2020-03-25 18:14:29| Debug:	| Execution Ended: 2020-03-25 18:14:29-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2. Result: Skip</pre>
+<pre>2020-03-25 18:14:29| Debug:	| Before Execution: 2020-03-25 18:14:29-case_70_SG_torso_2.46mm_hybridCT_FFS_vqc-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</pre>
+<pre>2020-03-25 18:14:29| Debug:	| Compare contents of UC: case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2</pre>
+<pre>2020-03-25 18:14:29| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.txt</b></pre>
+<pre>2020-03-25 18:14:29| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/ac_map_128x128x128.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/ac_map_128x128x128.bin</pre>
+<pre>2020-03-25 18:14:29| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</pre>
+<pre>2020-03-25 18:14:30| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2/acInfo.yaml</pre>
+<pre>2020-03-25 18:14:30| Debug:	| line start with case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml.. will be removed</pre>
+<pre>2020-03-25 18:14:30| Info:	| Compare Passed in Case case_69_tandem_IEC_4.42mm_externalCT_FFS_head-607.8_post29.6_left17.5_roll1_aziMin0.4_elev2.yml</pre>
+<pre>2020-03-25 18:14:32| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqcIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:32| Debug:	| Execution Ended: 2020-03-25 18:14:32-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc. Result: Pass</pre>
+<pre>2020-03-25 18:14:32| Debug:	| Before Execution: 2020-03-25 18:14:32-case_70_SG_torso_2.46mm_hybridCT_FFS_vqc-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</pre>
+<pre>2020-03-25 18:14:32| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.txt</b></pre>
+<pre>2020-03-25 18:14:32| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/ Already exist</pre>
+<pre>2020-03-25 18:14:32| Debug:	| Execution Ended: 2020-03-25 18:14:32-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc. Result: Skip</pre>
+<pre>2020-03-25 18:14:32| Debug:	| Before Execution: 2020-03-25 18:14:32-case_71_SG_torso_2.46mm_hybridCT_HFS_vqc-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</pre>
+<pre>2020-03-25 18:14:32| Debug:	| Compare contents of UC: case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc</pre>
+<pre>2020-03-25 18:14:32| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.txt</b></pre>
+<pre>2020-03-25 18:14:32| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/acquisition.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/acquisition.bin</pre>
+<pre>2020-03-25 18:14:32| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</pre>
+<pre>2020-03-25 18:14:33| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/projection.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/projection.bin</pre>
+<pre>2020-03-25 18:14:33| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/pixelWeights.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/pixelWeights.bin</pre>
+<pre>2020-03-25 18:14:34| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/ac_map_210x210x112.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/ac_map_210x210x112.bin</pre>
+<pre>2020-03-25 18:14:34| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/acInfo.yaml</pre>
+<pre>2020-03-25 18:14:35| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqcIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:35| Debug:	| Execution Ended: 2020-03-25 18:14:35-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc. Result: Pass</pre>
+<pre>2020-03-25 18:14:35| Debug:	| Before Execution: 2020-03-25 18:14:35-case_71_SG_torso_2.46mm_hybridCT_HFS_vqc-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</pre>
+<pre>2020-03-25 18:14:35| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.txt</b></pre>
+<pre>2020-03-25 18:14:35| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/ Already exist</pre>
+<pre>2020-03-25 18:14:35| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/sliceMask.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/sliceMask.bin</pre>
+<pre>2020-03-25 18:14:35| Debug:	| Execution Ended: 2020-03-25 18:14:35-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc. Result: Skip</pre>
+<pre>2020-03-25 18:14:35| Debug:	| Before Execution: 2020-03-25 18:14:35-case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</pre>
+<pre>2020-03-25 18:14:35| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.txt</b></pre>
+<pre>2020-03-25 18:14:36| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</pre>
+<pre>2020-03-25 18:14:36| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/reconInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/reconInfo.yaml</pre>
+<pre>2020-03-25 18:14:36| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/reconCmd.txt and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_70_SG_torso_2.46mm_hybridCT_FFS_vqc/reconCmd.txt</pre>
+<pre>2020-03-25 18:14:37| Debug:	| line start with case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml.. will be removed</pre>
+<pre>2020-03-25 18:14:37| Info:	| Compare Passed in Case case_70_SG_torso_2.46mm_hybridCT_FFS_vqc.yml</pre>
+<pre>2020-03-25 18:14:37| Debug:	| Compare contents of UC: case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc</pre>
+<pre>2020-03-25 18:14:37| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/acquisition.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/acquisition.bin</pre>
+<pre>2020-03-25 18:14:37| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/projection.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/projection.bin</pre>
+<pre>2020-03-25 18:14:38| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/pixelWeights.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/pixelWeights.bin</pre>
+<pre>2020-03-25 18:14:38| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXYIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:38| Debug:	| Execution Ended: 2020-03-25 18:14:38-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY. Result: Pass</pre>
+<pre>2020-03-25 18:14:38| Debug:	| Before Execution: 2020-03-25 18:14:38-case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</pre>
+<pre>2020-03-25 18:14:38| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.txt</b></pre>
+<pre>2020-03-25 18:14:38| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/ Already exist</pre>
+<pre>2020-03-25 18:14:39| Debug:	| Execution Ended: 2020-03-25 18:14:39-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY. Result: Skip</pre>
+<pre>2020-03-25 18:14:39| Debug:	| Before Execution: 2020-03-25 18:14:39-case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</pre>
+<pre>2020-03-25 18:14:39| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.txt</b></pre>
+<pre>2020-03-25 18:14:39| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/ac_map_218x218x112.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/ac_map_218x218x112.bin</pre>
+<pre>2020-03-25 18:14:39| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</pre>
+<pre>2020-03-25 18:14:40| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/acInfo.yaml</pre>
+<pre>2020-03-25 18:14:41| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/sliceMask.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/sliceMask.bin</pre>
+<pre>2020-03-25 18:14:41| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/reconInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/reconInfo.yaml</pre>
+<pre>2020-03-25 18:14:42| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:42| Debug:	| Execution Ended: 2020-03-25 18:14:42-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ. Result: Pass</pre>
+<pre>2020-03-25 18:14:42| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/reconCmd.txt and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_71_SG_torso_2.46mm_hybridCT_HFS_vqc/reconCmd.txt</pre>
+<pre>2020-03-25 18:14:42| Debug:	| Before Execution: 2020-03-25 18:14:42-case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</pre>
+<pre>2020-03-25 18:14:42| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.txt</b></pre>
+<pre>2020-03-25 18:14:42| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/ Already exist</pre>
+<pre>2020-03-25 18:14:42| Debug:	| Execution Ended: 2020-03-25 18:14:42-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ. Result: Skip</pre>
+<pre>2020-03-25 18:14:42| Debug:	| Before Execution: 2020-03-25 18:14:42-case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</pre>
+<pre>2020-03-25 18:14:42| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.txt</b></pre>
+<pre>2020-03-25 18:14:42| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</pre>
+<pre>2020-03-25 18:14:43| Debug:	| line start with case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml.. will be removed</pre>
+<pre>2020-03-25 18:14:43| Info:	| Compare Passed in Case case_71_SG_torso_2.46mm_hybridCT_HFS_vqc.yml</pre>
+<pre>2020-03-25 18:14:43| Debug:	| Compare contents of UC: case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY</pre>
+<pre>2020-03-25 18:14:43| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/acquisition.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/acquisition.bin</pre>
+<pre>2020-03-25 18:14:43| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/projection.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/projection.bin</pre>
+<pre>2020-03-25 18:14:44| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:44| Debug:	| Execution Ended: 2020-03-25 18:14:44-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ. Result: Pass</pre>
+<pre>2020-03-25 18:14:44| Debug:	| Before Execution: 2020-03-25 18:14:44-case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</pre>
+<pre>2020-03-25 18:14:44| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.txt</b></pre>
+<pre>2020-03-25 18:14:44| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/ Already exist</pre>
+<pre>2020-03-25 18:14:44| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/pixelWeights.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/pixelWeights.bin</pre>
+<pre>2020-03-25 18:14:44| Debug:	| Execution Ended: 2020-03-25 18:14:44-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ. Result: Skip</pre>
+<pre>2020-03-25 18:14:44| Debug:	| Before Execution: 2020-03-25 18:14:44-case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</pre>
+<pre>2020-03-25 18:14:44| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.txt</b></pre>
+<pre>2020-03-25 18:14:44| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</pre>
+<pre>2020-03-25 18:14:45| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/ac_map_118x118x56.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/ac_map_118x118x56.bin</pre>
+<pre>2020-03-25 18:14:45| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/acInfo.yaml</pre>
+<pre>2020-03-25 18:14:46| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/sliceMask.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/sliceMask.bin</pre>
+<pre>2020-03-25 18:14:46| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/reconInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/reconInfo.yaml</pre>
+<pre>2020-03-25 18:14:47| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/reconCmd.txt and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY/reconCmd.txt</pre>
+<pre>2020-03-25 18:14:47| Debug:	| line start with case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml.. will be removed</pre>
+<pre>2020-03-25 18:14:47| Info:	| Compare Passed in Case case_72_SG_torso_4.92mm_hybridCT_FFS_partialOverlapXY.yml</pre>
+<pre>2020-03-25 18:14:47| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:47| Debug:	| Compare contents of UC: case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ</pre>
+<pre>2020-03-25 18:14:47| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/acquisition.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/acquisition.bin</pre>
+<pre>2020-03-25 18:14:47| Debug:	| Execution Ended: 2020-03-25 18:14:47-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY. Result: Pass</pre>
+<pre>2020-03-25 18:14:47| Debug:	| Before Execution: 2020-03-25 18:14:47-case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</pre>
+<pre>2020-03-25 18:14:47| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.txt</b></pre>
+<pre>2020-03-25 18:14:48| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/ Already exist</pre>
+<pre>2020-03-25 18:14:48| Debug:	| Execution Ended: 2020-03-25 18:14:48-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY. Result: Skip</pre>
+<pre>2020-03-25 18:14:48| Debug:	| Before Execution: 2020-03-25 18:14:48-case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</pre>
+<pre>2020-03-25 18:14:48| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.txt</b></pre>
+<pre>2020-03-25 18:14:48| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</pre>
+<pre>2020-03-25 18:14:48| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/projection.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/projection.bin</pre>
+<pre>2020-03-25 18:14:49| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/pixelWeights.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/pixelWeights.bin</pre>
+<pre>2020-03-25 18:14:49| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/ac_map_208x208x112.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/ac_map_208x208x112.bin</pre>
+<pre>2020-03-25 18:14:50| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/acInfo.yaml</pre>
+<pre>2020-03-25 18:14:50| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/sliceMask.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/sliceMask.bin</pre>
+<pre>2020-03-25 18:14:51| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/reconInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/reconInfo.yaml</pre>
+<pre>2020-03-25 18:14:51| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:51| Debug:	| Execution Ended: 2020-03-25 18:14:51-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ. Result: Pass</pre>
+<pre>2020-03-25 18:14:51| Debug:	| Before Execution: 2020-03-25 18:14:51-case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</pre>
+<pre>2020-03-25 18:14:51| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.txt</b></pre>
+<pre>2020-03-25 18:14:51| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/ Already exist</pre>
+<pre>2020-03-25 18:14:51| Debug:	| Execution Ended: 2020-03-25 18:14:51-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ. Result: Skip</pre>
+<pre>2020-03-25 18:14:51| Debug:	| Before Execution: 2020-03-25 18:14:51-case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</pre>
+<pre>2020-03-25 18:14:51| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.txt</b></pre>
+<pre>2020-03-25 18:14:51| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</pre>
+<pre>2020-03-25 18:14:52| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/reconCmd.txt and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ/reconCmd.txt</pre>
+<pre>2020-03-25 18:14:52| Debug:	| line start with case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml.. will be removed</pre>
+<pre>2020-03-25 18:14:52| Info:	| Compare Passed in Case case_74_SG_torso_2.46mm_hybridCT_FFS_partialOverlapXYZ.yml</pre>
+<pre>2020-03-25 18:14:52| Debug:	| Compare contents of UC: case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ</pre>
+<pre>2020-03-25 18:14:52| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/acquisition.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/acquisition.bin</pre>
+<pre>2020-03-25 18:14:53| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/projection.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/projection.bin</pre>
+<pre>2020-03-25 18:14:53| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/pixelWeights.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/pixelWeights.bin</pre>
+<pre>2020-03-25 18:14:54| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/ac_map_132x132x112.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/ac_map_132x132x112.bin</pre>
+<pre>2020-03-25 18:14:54| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/acInfo.yaml</pre>
+<pre>2020-03-25 18:14:55| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:14:55| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/sliceMask.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/sliceMask.bin</pre>
+<pre>2020-03-25 18:14:55| Debug:	| Execution Ended: 2020-03-25 18:14:55-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ. Result: Pass</pre>
+<pre>2020-03-25 18:14:55| Debug:	| Before Execution: 2020-03-25 18:14:55-case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</pre>
+<pre>2020-03-25 18:14:55| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.txt</b></pre>
+<pre>2020-03-25 18:14:55| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/ Already exist</pre>
+<pre>2020-03-25 18:14:56| Debug:	| Execution Ended: 2020-03-25 18:14:56-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ. Result: Skip</pre>
+<pre>2020-03-25 18:14:56| Debug:	| Before Execution: 2020-03-25 18:14:56-case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</pre>
+<pre>2020-03-25 18:14:56| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/</b>
+	autoName: <b>case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/logs//log_case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.txt</b></pre>
+<pre>2020-03-25 18:14:56| Debug:	| Command before Execution: /bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</pre>
+<pre>2020-03-25 18:14:56| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/reconInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/reconInfo.yaml</pre>
+<pre>2020-03-25 18:14:56| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/reconCmd.txt and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ/reconCmd.txt</pre>
+<pre>2020-03-25 18:14:57| Debug:	| line start with case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml.. will be removed</pre>
+<pre>2020-03-25 18:14:57| Info:	| Compare Passed in Case case_75_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXYZ.yml</pre>
+<pre>2020-03-25 18:14:57| Debug:	| Compare contents of UC: case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY</pre>
+<pre>2020-03-25 18:14:57| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/acquisition.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/acquisition.bin</pre>
+<pre>2020-03-25 18:14:58| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/projection.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/projection.bin</pre>
+<pre>2020-03-25 18:14:58| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/pixelWeights.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/pixelWeights.bin</pre>
+<pre>2020-03-25 18:14:58| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/ac_map_132x132x112.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/ac_map_132x132x112.bin</pre>
+<pre>2020-03-25 18:14:59| Debug:	| /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFSIG_Prep ended successfully</pre>
+<pre>2020-03-25 18:15:00| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/acInfo.yaml</pre>
+<pre>2020-03-25 18:15:00| Debug:	| Execution Ended: 2020-03-25 18:15:00-/bin/time -v /usr/local/ge/opt/ig_prep-0.0.19/bin/ig_prep -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS. Result: Pass</pre>
+<pre>2020-03-25 18:15:00| Debug:	| Before Execution: 2020-03-25 18:15:00-case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS-/bin/time -v /usr/local/ge/bin/ig_prep_rc  -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</pre>
+<pre>2020-03-25 18:15:00| Debug:	| GpcReconAgent properties: 
+	gpc_recon_exe: <b>/usr/local/ge/bin/ig_prep_rc</b>
+	gpcCommand: <b>/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</b>
+	output_path: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/</b>
+	autoName: <b>case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</b>
+	execProductDirFullName: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</b>
+	useCaseLogFile: <b>/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/logs//log_case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.txt</b></pre>
+<pre>2020-03-25 18:15:00| Debug:	| Products directory /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/ Already exist</pre>
+<pre>2020-03-25 18:15:00| Debug:	| Execution Ended: 2020-03-25 18:15:00-/bin/time -v /usr/local/ge/bin/ig_prep_rc -y /usr/local/ge/opt/RETS/etc/ig_prep/test_cases//case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml -o /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS. Result: Skip</pre>
+<pre>2020-03-25 18:15:00| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/sliceMask.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/sliceMask.bin</pre>
+<pre>2020-03-25 18:15:01| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/reconInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/reconInfo.yaml</pre>
+<pre>2020-03-25 18:15:02| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/reconCmd.txt and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY/reconCmd.txt</pre>
+<pre>2020-03-25 18:15:02| Debug:	| line start with case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml.. will be removed</pre>
+<pre>2020-03-25 18:15:02| Info:	| Compare Passed in Case case_76_SG_jzk_2.46mm_hybridCT_HFS_partialOverlapXY.yml</pre>
+<pre>2020-03-25 18:15:02| Debug:	| Compare contents of UC: case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ</pre>
+<pre>2020-03-25 18:15:02| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/acquisition.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/acquisition.bin</pre>
+<pre>2020-03-25 18:15:03| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/projection.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/projection.bin</pre>
+<pre>2020-03-25 18:15:03| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/pixelWeights.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/pixelWeights.bin</pre>
+<pre>2020-03-25 18:15:04| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/ac_map_110x110x56.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/ac_map_110x110x56.bin</pre>
+<pre>2020-03-25 18:15:05| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/acInfo.yaml</pre>
+<pre>2020-03-25 18:15:05| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/sliceMask.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/sliceMask.bin</pre>
+<pre>2020-03-25 18:15:06| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/reconInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/reconInfo.yaml</pre>
+<pre>2020-03-25 18:15:06| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/reconCmd.txt and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ/reconCmd.txt</pre>
+<pre>2020-03-25 18:15:07| Debug:	| line start with case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml.. will be removed</pre>
+<pre>2020-03-25 18:15:07| Info:	| Compare Passed in Case case_77_SG_torso_4.92mm_hybridCT_HFS_partialOverlapZ.yml</pre>
+<pre>2020-03-25 18:15:07| Debug:	| Compare contents of UC: case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ</pre>
+<pre>2020-03-25 18:15:07| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/acquisition.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/acquisition.bin</pre>
+<pre>2020-03-25 18:15:07| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/projection.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/projection.bin</pre>
+<pre>2020-03-25 18:15:08| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/pixelWeights.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/pixelWeights.bin</pre>
+<pre>2020-03-25 18:15:08| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/ac_map_110x110x56.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/ac_map_110x110x56.bin</pre>
+<pre>2020-03-25 18:15:09| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/acInfo.yaml</pre>
+<pre>2020-03-25 18:15:09| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/sliceMask.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/sliceMask.bin</pre>
+<pre>2020-03-25 18:15:10| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/reconInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/reconInfo.yaml</pre>
+<pre>2020-03-25 18:15:10| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/reconCmd.txt and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ/reconCmd.txt</pre>
+<pre>2020-03-25 18:15:11| Debug:	| line start with case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml.. will be removed</pre>
+<pre>2020-03-25 18:15:11| Info:	| Compare Passed in Case case_78_SG_torso_4.92mm_hybridCT_FFS_partialOverlapZ.yml</pre>
+<pre>2020-03-25 18:15:11| Debug:	| Compare contents of UC: case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml
+	/data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS
+	/data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS</pre>
+<pre>2020-03-25 18:15:11| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/acquisition.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/acquisition.bin</pre>
+<pre>2020-03-25 18:15:11| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/projection.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/projection.bin</pre>
+<pre>2020-03-25 18:15:12| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/pixelWeights.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/pixelWeights.bin</pre>
+<pre>2020-03-25 18:15:13| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/ac_map_200x200x112.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/ac_map_200x200x112.bin</pre>
+<pre>2020-03-25 18:15:13| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/acInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/acInfo.yaml</pre>
+<pre>2020-03-25 18:15:14| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/sliceMask.bin and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/sliceMask.bin</pre>
+<pre>2020-03-25 18:15:14| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/reconInfo.yaml and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/reconInfo.yaml</pre>
+<pre>2020-03-25 18:15:15| Debug:	| compare files: /data/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/reconCmd.txt and /data/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS/reconCmd.txt</pre>
+<pre>2020-03-25 18:15:15| Debug:	| line start with case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml.. will be removed</pre>
+<pre>2020-03-25 18:15:15| Info:	| Compare Passed in Case case_83_SG_IEC_2.46mm_externalCTfromTandem_FFS.yml</pre>
+<pre>2020-03-25 18:15:19| Info:	| Regression execution ended at 2020-03-25 18:15:19</pre>

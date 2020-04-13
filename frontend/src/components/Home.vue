@@ -3,48 +3,28 @@
     <v-app light>
       <v-content>
         <section>
-          <v-parallax src="http://papers.co/wallpaper/papers.co-va92-wallpaper-triangle-fall-orange-pattern-35-3840x2160-4k-wallpaper.jpg"
-                      height="500"
-                      style="padding: 5%"
-          >
-            <v-layout
-              column
-              align-center
-              justify-center
-              class="white--text"
-              >
-              <h1 class="white--text mb-2 display-1 text-xs-center"
-              style="font-size: 64px!important;"
-              >
-                Photo Classification Evaluation Tool
+          <v-parallax src="https://freedesignfile.com/upload/2017/01/Light-blue-tech-background-vector-05.jpg"
+                      style="padding: 5%">
+            <v-layout column align-center justify-center class="white--text">
+              <h1 class="white--text mb-2 display-1 text-xs-center" style="font-size: 76px!important;">
+                IGETS Tool
               </h1>
+              <h3 style="margin-top: 1%">Image Generation Engine Test Suite</h3>
             </v-layout>
           </v-parallax>
         </section>
 
         <section>
-          <v-layout
-            column
-            wrap
-            class="my-5"
-            align-center
-          >
-                <pre class="text-xs-center" style="font-family: unset; font-size: 30px; margin-bottom: -40px; white-space: pre-line;">
-                  This tool is used for creating, editing, importing and exporting tagged
-                  sets of photos (aka ground-truth sets) for configurable concepts as well
-                  as evaluating classification algorithms against ground truth sets.
-               </pre>
+          <v-layout column wrap class="my-5" align-center>
+            <pre class="text-xs-center" style="font-family: unset; font-size: 30px; margin-bottom: -40px; white-space: pre-line;">
+              This tool provides easy way to view and run DevOps tools and results
+            </pre>
           </v-layout>
         </section>
         <br>
         <hr>
         <section>
-          <v-layout
-            column
-            wrap
-            class="my-5"
-            align-center
-          >
+          <v-layout column wrap class="my-5" align-center>
             <v-flex xs12 sm4 class="my-3">
               <div class="text-xs-center">
                 <h2 class="mb-3 text-xs-center">All in one tool</h2>
@@ -115,13 +95,10 @@
                       <v-list-tile-title style="padding-left: 20%">
                         <div style="display: inline">
                           <img src="https://image.flaticon.com/icons/svg/25/25231.svg"style="width:15px;height:15px;">
-                          <a href="https://github.com/Idancw/IndustrialProject" target="_blank"
-                             class="align-middle"
-                          >
+                          <a href="https://github.com/Idancw/IndustrialProject" target="_blank" class="align-middle">
                             GitHub
                           </a>
                         </div>
-
                       </v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile>
@@ -141,14 +118,13 @@
     name: 'home',
     data () {
       return {
-        title: 'Photo Classification Evaluation Tool'
+        title: 'IGETS Tool'
       }
     }
   }
 </script>
 
 <style scoped>
-
   a {
     text-decoration: none !important;
     color: #000;
@@ -161,5 +137,4 @@
     width: 90%;
     margin-left: 5%;
   }
-
 </style>

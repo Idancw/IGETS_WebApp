@@ -17,6 +17,10 @@ cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
+# Globals
+# regression_reports_root = '/data/GPC/examinations/regression/'
+regression_reports_root = '/Users/idancw/PycharmProjects/IGETS_WebApp/backend/'
+
 
 @app.route('/api/random')
 def random_number():
@@ -111,13 +115,43 @@ def remove_frontend_files():
     return jsonify({'return': 0, 'msg': 'Success', 'result': ''})
 
 
-@app.route('/api/getoptions')
-def get_options():
-    datasets = listdir(UPLOAD_FOLDER)
+@app.route('/api/get_component_names')
+def get_component_names():
+    component_names = sorted(['ig_prep', 'gpc_recon', 'ig_crop'])  # listdir(PATH_TO_COMPONENTS)
     response = {
-        'options': datasets
+        'component_names': component_names
     }
     return jsonify(response)
+
+
+@app.route('/api/get_component_report/<component_name>')
+def get_component_report(component_name):
+    from os import listdir
+    from os.path import isdir
+    from re import findall
+
+    if not isdir('{}/{}'.format(regression_reports_root, component_name)):
+        return jsonify('')
+    report_dirs = listdir('{}/{}'.format(regression_reports_root, component_name))
+    report_dirs_full = ['{}/{}'.format(regression_reports_root, d) for d in listdir('{}/{}'.format(regression_reports_root, component_name))]
+
+    report_table = {}
+    for i in range(len(report_dirs)):
+        report_table[i] = {}
+    for i, d in enumerate(report_dirs):
+        # Find versions of Golden and Candidate
+        versions = findall('_(\d+\.\d+\.\d+)_', d)  # version string of Major.Minor.Patch
+        versions += findall('_(\d+\.\d+\.\d+\.\d+)_', d)  # version string of Major.Minor.Patch.Private
+        report_table[i]['Golden'] = versions[0]
+        report_table[i]['Candidate'] = versions[1]
+        report_time = d.split('_')[-1]
+        report_table[i]['time'] = '{}:{}:{}'.format(report_time[0:2], report_time[2:4], report_time[4:6])
+        report_date = d.split('_')[-2]
+        report_table[i]['date'] = '{}-{}-{}'.format(report_date[0:4], report_date[4:6], report_date[6:8])
+        report_table[i]['full_path'] = report_dirs_full[i]
+
+    print(report_table)
+    return jsonify('')
 
 
 @app.route('/', defaults={'path': ''})

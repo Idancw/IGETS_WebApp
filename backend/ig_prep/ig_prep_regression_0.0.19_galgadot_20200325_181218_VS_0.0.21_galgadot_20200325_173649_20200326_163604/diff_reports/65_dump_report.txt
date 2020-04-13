@@ -1,0 +1,6 @@
+	| Comparison between:
+	/home/data_local/GPC/examinations/ig_prep_v0.0.19/galgadot_20200325_181218/products/case_65_tandem_myocard_4.42mm_FFS_noShift/acInfo.yaml
+			--vs--
+	/home/data_local/GPC/examinations/ig_prep_v0.0.21/galgadot_20200325_173649/products/case_65_tandem_myocard_4.42mm_FFS_noShift/acInfo.yaml
+		>>> Identical :) 
+	

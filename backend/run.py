@@ -81,8 +81,11 @@ def upload(upload_type):
             create_dataset(dst_path, tags)
         return jsonify({'return': 0, 'msg': 'Success'})
     elif upload_type == 'evaluate_dataset':
-        gt_dataset = dict(request.form)['GT_dataset'][0]
-        algo_dataset = dict(request.files)['Algo_dataset'][0]
+        print(dict(request.files)['Algo_dataset'])
+        print(dict(request.form)['GT_dataset'])
+        gt_dataset = dict(request.form)['GT_dataset']
+        algo_dataset = dict(request.files)['Algo_dataset']
+        print(gt_dataset)
         if not algo_dataset or gt_dataset == 'undefined':
             return jsonify({'return': 1, 'msg': 'No algorithm or GT dataset selected', 'result': ''})
         try:
@@ -133,7 +136,7 @@ def get_component_report(component_name):
     if not isdir('{}/{}'.format(regression_reports_root, component_name)):
         return jsonify('')
     report_dirs = listdir('{}/{}'.format(regression_reports_root, component_name))
-    report_dirs_full = ['{}/{}'.format(regression_reports_root, d) for d in listdir('{}/{}'.format(regression_reports_root, component_name))]
+    report_dirs_full = ['{}/{}/{}'.format(regression_reports_root, component_name, d) for d in listdir('{}/{}'.format(regression_reports_root, component_name))]
 
     report_table = {}
     for i in range(len(report_dirs)):
@@ -145,13 +148,24 @@ def get_component_report(component_name):
         report_table[i]['Golden'] = versions[0]
         report_table[i]['Candidate'] = versions[1]
         report_time = d.split('_')[-1]
-        report_table[i]['time'] = '{}:{}:{}'.format(report_time[0:2], report_time[2:4], report_time[4:6])
+        report_table[i]['Time'] = '{}:{}:{}'.format(report_time[0:2], report_time[2:4], report_time[4:6])
         report_date = d.split('_')[-2]
-        report_table[i]['date'] = '{}-{}-{}'.format(report_date[0:4], report_date[4:6], report_date[6:8])
-        report_table[i]['full_path'] = report_dirs_full[i]
+        report_table[i]['Date'] = '{}-{}-{}'.format(report_date[0:4], report_date[4:6], report_date[6:8])
+        report_table[i]['Completed'] = check_report_state(report_dirs_full[i])
+        report_table[i]['State'] = report_state(report_dirs_full[i])
+        report_table[i]['Report_link'] = report_link(report_dirs_full[i])
+        report_table[i]['_full_path'] = report_dirs_full[i]
 
-    print(report_table)
-    return jsonify('')
+    return jsonify({'return': 0, 'msg': 'success', 'result': report_table})
+
+
+@app.route('/api/getoptions')
+def get_options():
+    datasets = listdir(UPLOAD_FOLDER)
+    response = {
+        'options': datasets
+    }
+    return jsonify(response)
 
 
 @app.route('/', defaults={'path': ''})

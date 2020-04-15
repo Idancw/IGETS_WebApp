@@ -4,7 +4,7 @@ from os.path import basename
 
 import matplotlib.pyplot as plt
 import numpy as np
-# import pandas as pd
+import pandas as pd
 
 from backend_tools.global_functions import *
 
@@ -30,7 +30,7 @@ class Evaluator:
         self.cmTabel = None
         self.build_tags()
         self.check_tags()
-        # self.df = pd.DataFrame()
+        self.df = pd.DataFrame()
 
     def build_tags(self):
         for sub_ds in self.GTDataSet:
@@ -92,9 +92,9 @@ class Evaluator:
                         self.CM['{} {}'.format(gt_label, algo_label)] += 1
 
     def create_cm_table(self):
-        # self.y_gt = pd.Series(list(self.gTags), name='Ground Truth')
-        # self.y_algo = pd.Series(list(self.algoTags), name='Algorithm')
-        # self.cmTabel = pd.crosstab(self.y_gt, self.y_algo)
+        self.y_gt = pd.Series(list(self.gTags), name='Ground Truth')
+        self.y_algo = pd.Series(list(self.algoTags), name='Algorithm')
+        self.cmTabel = pd.crosstab(self.y_gt, self.y_algo)
         for label_set, value in self.CM.items():
             self.cmTabel.loc[label_set.split()[0], label_set.split()[1]] = value
 
@@ -107,19 +107,19 @@ def find_match(object_list, pattern):
     return {}
 
 
-def save_confusion_matrix(df_confusion, cmap=plt.cm.Oranges):
-    plt.matshow(df_confusion, cmap=cmap)
-    tick_marks = np.arange(len(df_confusion.columns))
-    plt.xticks(tick_marks, df_confusion.columns, rotation=45)
-    plt.yticks(tick_marks, df_confusion.index)
-    plt.tight_layout()
-    for i, j in itertools.product(range(df_confusion.shape[0]), range(df_confusion.shape[1])):
-        plt.text(j, i, int(df_confusion.ix[i, j]),
-                 horizontalalignment="center",
-                 color="black")
-    plt.ylabel(df_confusion.index.name)
-    plt.xlabel(df_confusion.columns.name)
-    plt.savefig('CM.png', bbox_inches="tight")
+# def save_confusion_matrix(df_confusion, cmap=plt.cm.Oranges):
+#     plt.matshow(df_confusion, cmap=cmap)
+#     tick_marks = np.arange(len(df_confusion.columns))
+#     plt.xticks(tick_marks, df_confusion.columns, rotation=45)
+#     plt.yticks(tick_marks, df_confusion.index)
+#     plt.tight_layout()
+#     for i, j in itertools.product(range(df_confusion.shape[0]), range(df_confusion.shape[1])):
+#         plt.text(j, i, int(df_confusion.ix[i, j]),
+#                  horizontalalignment="center",
+#                  color="black")
+#     plt.ylabel(df_confusion.index.name)
+#     plt.xlabel(df_confusion.columns.name)
+#     plt.savefig('CM.png', bbox_inches="tight")
 
 
 def style_table(html_table):
@@ -163,37 +163,37 @@ def evaluate(gt_dataset, algo_dataset):
     warnings = []
     evaluator = Evaluator(gt_dataset, algo_dataset)
     evaluator.build_results()
-    save_confusion_matrix(evaluator.cmTabel)
+    # save_confusion_matrix(evaluator.cmTabel)
     idx = ['{}'.format(key[0]) for key in
            [list(dataset.keys()) for dataset in evaluator.result['ground_truth']]]
 
     # Build the detailed table with columns of img, GT label, Algo label and predict
     gt_img_dirname = evaluator.GTImgDirname
-    # detailed_table = pd.DataFrame(columns=evaluator.CMmap, index=idx)
-    # for key, value in evaluator.imgMap.items():
-    #     if len(value) == 1:
-    #         value.append('Nan')
-    #     elif len(value) == 0:
-    #         value = ['Nan', 'Nan']
-    #     detailed_table.loc['{}/{}'.format(gt_img_dirname, key)] = pd.Series({'Ground Truth': value[0], 'Algorithm': value[1]})
-    # detailed_table['Predict'] = detailed_table['Ground Truth'] == detailed_table['Algorithm']
-    #
-    # # Append warnings if exists
-    # if not [value for value in list(detailed_table.Algorithm.values) if value != 'Nan']:
-    #     warnings.append('Could be Empty (not labeled) Algorithm data set')
-    # if not [val for val in list(detailed_table.loc[:, 'Ground Truth'].values) if val != 'Nan']:
-    #     warnings.append('Could be Empty (not labeled) Ground Truth data set')
-    #
-    # # Calculate accuracy
-    # success = 0
-    # divider = 1
-    # if detailed_table[detailed_table.Predict].Predict.value_counts().size:
-    #     success = int(detailed_table[detailed_table.Predict].Predict.value_counts())
-    # if detailed_table.Predict.size:
-    #     divider = int(detailed_table.Predict.size)
-    # accuracy = success / divider
-    # accuracy_str = '{:.2f}%'.format(accuracy*100)
-    # images = list(evaluator.images)
-    # copy_files(images=images)
-    # html_table = style_table(detailed_table.to_html(classes='DetailedTable'))
-    # return evaluator.cmTabel.to_html(classes='CMTable'), html_table, images, accuracy_str, warnings
+    detailed_table = pd.DataFrame(columns=evaluator.CMmap, index=idx)
+    for key, value in evaluator.imgMap.items():
+        if len(value) == 1:
+            value.append('Nan')
+        elif len(value) == 0:
+            value = ['Nan', 'Nan']
+        detailed_table.loc['{}/{}'.format(gt_img_dirname, key)] = pd.Series({'Ground Truth': value[0], 'Algorithm': value[1]})
+    detailed_table['Predict'] = detailed_table['Ground Truth'] == detailed_table['Algorithm']
+
+    # Append warnings if exists
+    if not [value for value in list(detailed_table.Algorithm.values) if value != 'Nan']:
+        warnings.append('Could be Empty (not labeled) Algorithm data set')
+    if not [val for val in list(detailed_table.loc[:, 'Ground Truth'].values) if val != 'Nan']:
+        warnings.append('Could be Empty (not labeled) Ground Truth data set')
+
+    # Calculate accuracy
+    success = 0
+    divider = 1
+    if detailed_table[detailed_table.Predict].Predict.value_counts().size:
+        success = int(detailed_table[detailed_table.Predict].Predict.value_counts())
+    if detailed_table.Predict.size:
+        divider = int(detailed_table.Predict.size)
+    accuracy = success / divider
+    accuracy_str = '{:.2f}%'.format(accuracy*100)
+    images = list(evaluator.images)
+    copy_files(images=images)
+    html_table = style_table(detailed_table.to_html(classes='DetailedTable'))
+    return evaluator.cmTabel.to_html(classes='CMTable'), html_table, images, accuracy_str, warnings

@@ -159,6 +159,13 @@ def get_component_report(component_name):
     return jsonify({'return': 0, 'msg': 'success', 'result': report_table})
 
 
+@app.route('/api/get_report_html/<report_path>')
+def get_report_html(report_path):
+    refactor_path = report_path.replace('!', '/')
+    with open(refactor_path, 'r') as f:
+        return jsonify({'return': 0, 'msg': 'success', 'result': f.read()})
+
+
 @app.route('/api/getoptions')
 def get_options():
     datasets = listdir(UPLOAD_FOLDER)

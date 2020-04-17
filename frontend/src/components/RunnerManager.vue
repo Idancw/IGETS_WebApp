@@ -1,5 +1,5 @@
 <template>
-  <v-container id="RunnerManager" fluid grid-list-xl style="max-width: 78%; padding-top: 5%">
+  <v-container id="RunnerManager" fluid grid-list-xl style="max-width: 90%; padding-top: 5%; padding-bottom: 5%">
     <h1>{{runnerName}} Property File Definitions</h1>
 
     <v-form ref="form">
@@ -8,14 +8,16 @@
         :items="componentOptions"
         label="Component Name"
         v-on:change="getVersions($event)"
+        solo
         required
       ></v-select>
-      <!--      TODO: do versions in one line-->
+      <div class="d-flex">
         <v-select
           v-model="release"
           :items="releaseOptions"
           label="Release Version"
           :disabled="versionDisable"
+          solo
           required
         ></v-select>
         <v-select
@@ -23,9 +25,10 @@
           :items="candidateOptions"
           label="Candidate Version"
           :disabled="versionDisable"
+          solo
           required
         ></v-select>
-      <!--      -->
+      </div>
       <v-select
         v-model="debugLevel"
         :items="debugLevelOptions"
@@ -34,60 +37,84 @@
       <div v-if="runnerName === 'Regression'">
         <v-divider></v-divider>
         <h2 style="display: inline-block">Filter</h2>
-        <!--        TODO: Make the btn small-->
           <v-btn
             fab
             color="deep-purple accent-1"
             @click="addFilterBlock"
             style="margin-bottom: 1%"
+            small
           ><v-icon>library_add</v-icon>
           </v-btn>
-        <!---->
         <div>
-          <div v-for="(blockInfo, id) in filterBlocks" style="display: inline-block; padding-right: 1%; margin-bottom: 1%">
+          <div v-for="(filterBlockOption, filterBlockIndex) in filterBlocks" style="display: inline-block; padding-right: 1%; margin-bottom: 1%">
             <v-card-title style="background-color: #D1C4E9">
               <span class="BlockTitle">
-                Block {{id}}
+                Block {{filterBlockIndex}}
               </span>
               <v-spacer></v-spacer>
               <v-switch
-                style="position: absolute; margin-left: 4%"
+                style="position: absolute; margin-left: 4%; max-width: 200px"
                 v-model="visibleExcludeIndexes"
                 hint="Exclude"
                 persistent-hint
                 color="red"
-                :value="id"
-                v-on:change="updateVisibility(id, 'Exclude')"
+                :value="filterBlockIndex"
+                v-on:change="updateVisibility(filterBlockIndex, 'Exclude')"
               ></v-switch>
               <v-switch
-                style="position: absolute; margin-left: 7%"
+                style="position: absolute; margin-left: 7%; max-width: 200px"
                 v-model="visibleMultiplyIndexes"
                 hint="Multiply"
                 persistent-hint
                 color="red"
-                :value="id"
-                v-on:change="updateVisibility(id, 'Multiply')"
+                :value="filterBlockIndex"
+                v-on:change="updateVisibility(filterBlockIndex, 'Multiply')"
               ></v-switch>
             </v-card-title>
-            <v-card class="d-inline-block mx-auto" v-for="(innerBlock, field) in blockInfo">
-              <v-card-subtitle v-if="innerBlock.visible">{{field}}</v-card-subtitle>
-              <div v-for="(index, title) in innerBlock" v-if="title !== 'visible' && innerBlock.visible">
-                {{title}}
-                <v-select
-                  :items="operatorOptions"
-                  label="Operator"
-                  chips
-                ></v-select>
 
-              </div>
-<!--              <v-text-field v-for="(index, title) in innerBlock" v-if="title !== 'visible' && innerBlock.visible"-->
-<!--                            :label="title"-->
-<!--                            multi-line-->
-<!--                            rows="1"-->
-<!--                            auto-grow-->
-<!--                            clearable-->
-<!--                ></v-text-field>-->
+            <div>
+              <v-card class="d-inline-block" v-for="(innerFilterBlock, innerFilterBlockName) in filterBlockOption">
+                <v-card-title v-if="innerFilterBlock.visible">{{innerFilterBlockName}}</v-card-title>
+                <v-card
+                class="d-flex"
+                color="grey lighten-4"
+                tile
+                v-for="(filterOption, filterOptionName) in innerFilterBlock" v-if="filterOptionName !== 'visible' && innerFilterBlock.visible"
+                >
+                  <div>
+                    <v-card-title class="font-weight-bold mb-1" style="width: 150px; max-width: 150px" v-if="innerFilterBlock.visible">{{filterOptionName}}</v-card-title>
+                    <v-btn
+                      small
+                      round
+                      color="deep-purple lighten-5"
+                      fab
+                      @click="addFilterOperand(filterBlockIndex, innerFilterBlockName, filterOptionName)"
+                  ><v-icon>add</v-icon></v-btn>
+                  </div>
+                  <v-card
+                    outlined
+                    tile
+                    v-for="operatorObj in filterOption"
+                  >
+                    <div v-if="visible"></div>
+                    <div v-if="filterOptionName !== 'Other'">
+                      <v-select
+                        v-if="filterOptionName !== 'Other'"
+                        :items="operatorOptions"
+                        v-model="operatorObj.operand"
+                        label="Operator"
+                        chips>
+                      </v-select>
+                      <v-text-field label="Value" rows="1" v-model="operatorObj.value"></v-text-field>
+                    </div>
+                    <div v-else>
+                      <v-text-field label="Value" rows="2" multi-line auto-grow v-model="operatorObj.value"></v-text-field>
+                    </div>
+
+                  </v-card>
+                </v-card>
               </v-card>
+            </div>
           </div>
         </div>
         <div v-if="visible"></div>
@@ -95,29 +122,6 @@
       <div v-else>
 
       </div>
-<!--      <v-btn-->
-<!--        :disabled="!valid"-->
-<!--        color="success"-->
-<!--        class="mr-4"-->
-<!--        @click="validate"-->
-<!--      >-->
-<!--        Validate-->
-<!--      </v-btn>-->
-
-<!--      <v-btn-->
-<!--        color="error"-->
-<!--        class="mr-4"-->
-<!--        @click="reset"-->
-<!--      >-->
-<!--        Reset Form-->
-<!--      </v-btn>-->
-
-<!--      <v-btn-->
-<!--        color="warning"-->
-<!--        @click="resetValidation"-->
-<!--      >-->
-<!--        Reset Validation-->
-<!--      </v-btn>-->
     </v-form>
 
 
@@ -182,13 +186,27 @@
         this.reset()
       },
       addFilterBlock () {
-        let include = {CaseID: [], VersionNumber: [], YamlCaseID: [], visible: true}
-        let exclude = {CaseID: [], VersionNumber: [], YamlCaseID: [], visible: false}
-        let multiply = {CaseID: [], VersionNumber: [], YamlCaseID: [], visible: false}
+        let include = {CaseID: [], VersionNumber: [], YamlCaseID: [], Other: [], visible: true}
+        let exclude = {CaseID: [], VersionNumber: [], YamlCaseID: [], Other: [], visible: false}
+        let multiply = {CaseID: [], VersionNumber: [], YamlCaseID: [], Other: [], visible: false}
+        let filters = [include, exclude, multiply]
+        for (let index in filters) {
+          if (filters.hasOwnProperty(index)) {
+            filters[index].CaseID.push({operand: '', value: ''})
+            filters[index].VersionNumber.push({operand: '', value: ''})
+            filters[index].YamlCaseID.push({operand: '', value: ''})
+            filters[index].Other.push({operand: '', value: ''})
+          }
+        }
         this.filterBlocks[this.numberOfBlocks] = {Include: include, Exclude: exclude, Multiply: multiply}
         this.visibleExcludeIndexes.push(this.numberOfBlocks)
         this.visibleMultiplyIndexes.push(this.numberOfBlocks)
         this.numberOfBlocks++
+        this.visible = !this.visible
+      },
+      addFilterOperand (index, filterBlock, filterOption) {
+        this.filterBlocks[index][filterBlock][filterOption].push({operand: '', value: ''})
+        console.log(this.filterBlocks[index])
         this.visible = !this.visible
       },
       updateVisibility (id, section) {

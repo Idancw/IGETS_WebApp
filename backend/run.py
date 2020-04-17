@@ -1,4 +1,5 @@
 from os.path import isdir, isfile, join
+from re import findall
 from random import *
 
 from flask import Flask, request, jsonify
@@ -19,48 +20,9 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Globals
 # regression_reports_root = '/data/GPC/examinations/regression/'
+# components_root = '/usr/local/ge/opt/'
+components_root = '/Users/idancw/PycharmProjects/IGETS_WebApp/backend/versions/'
 regression_reports_root = '/Users/idancw/PycharmProjects/IGETS_WebApp/backend/'
-
-
-@app.route('/api/random')
-def random_number():
-    response = {
-        'randomNumber': randint(1, 100)
-    }
-    return jsonify(response)
-
-
-@app.route('/api/loadjson/<path>')
-def load_json(path):
-    src_path = UPLOAD_FOLDER + '/' + path.replace(' ', '_') + '/'
-    dst_path = FRONTEND_DATASETS + path.replace(' ', '_')
-    json_file = src_path + '/dataset.json'
-    response = {
-        'data': {}
-    }
-    if isdir(src_path) and isfile(json_file):
-        copy_files(src_path=src_path, dst_path=dst_path)
-        response = {
-            'data': json.load(open(json_file, 'r'))
-        }
-    return jsonify(response)
-
-
-@app.route('/api/savejson/<path>', methods=['POST'])
-def save_json(path):
-    json_data = json.loads(request.data.decode('utf-8'))
-    dst_path = UPLOAD_FOLDER + '/' + path + '/'
-    response = {
-        'data': {'message': 'ERROR'}
-    }
-    if not isdir(dst_path):
-        return response
-    with open('{}/dataset.json'.format(dst_path), 'w') as outfile:
-        json.dump(json_data, outfile, sort_keys=True, indent=4, separators=(',', ': '))
-    # remove data set directory from frontend
-    remove_files(FRONTEND_DATASETS + path, remove_dir=True)
-    response['message'] = 'OK'
-    return jsonify(response)
 
 
 @app.route('/api/upload/<upload_type>', methods=['POST'])
@@ -106,18 +68,6 @@ def upload(upload_type):
             return jsonify({'return': 1, 'msg': repr(error), 'result': ''})
 
 
-@app.route('/api/remove_frontend_files')
-def remove_frontend_files():
-    try:
-        remove_files(FRONTEND_CMS)
-        for directory in [FRONTEND_DATASETS + _dir for _dir in listdir(FRONTEND_DATASETS)]:
-            remove_files(directory, remove_dir=True)
-    except Exception as error:
-        print(repr(error))
-        return jsonify({'return': 0, 'msg': repr(error), 'result': ''})
-    return jsonify({'return': 0, 'msg': 'Success', 'result': ''})
-
-
 @app.route('/api/get_component_names')
 def get_component_names():
     component_names = sorted(['ig_prep', 'gpc_recon', 'ig_crop'])  # listdir(PATH_TO_COMPONENTS)
@@ -131,7 +81,6 @@ def get_component_names():
 def get_component_report(component_name):
     from os import listdir
     from os.path import isdir
-    from re import findall
 
     if not isdir('{}/{}'.format(regression_reports_root, component_name)):
         return jsonify('')
@@ -164,6 +113,21 @@ def get_report_html(report_path):
     refactor_path = report_path.replace('!', '/')
     with open(refactor_path, 'r') as f:
         return jsonify({'return': 0, 'msg': 'success', 'result': f.read()})
+
+
+@app.route('/api/get_component_versions/<component>')
+def get_component_versions(component):
+    from glob import glob
+
+    component_dirs = glob('{}/{}-*'.format(components_root, component))
+    versions = []
+    for d in component_dirs:
+        versions += findall('-(\d+\.\d+\.\d+)', d)  # version string of Major.Minor.Patch
+        versions += findall('-(\d+\.\d+\.\d+\.\d+)', d)  # version string of Major.Minor.Patch.Private
+    versions = sorted(list(set(versions)))
+    versions.append('be')
+    versions.append('rc')
+    return jsonify({'return': 0, 'msg': 'success', 'result': versions})
 
 
 @app.route('/api/getoptions')

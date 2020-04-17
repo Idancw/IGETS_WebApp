@@ -37,8 +37,8 @@
           document.getElementById('reportHtml').innerHTML = this.reportContent
         })
         .catch(error => {
-            console.log(error)
-          })
+          console.log(error)
+        })
       }
     },
     created() {

@@ -13,7 +13,6 @@
             </v-layout>
           </v-parallax>
         </section>
-
         <section>
           <v-layout column wrap class="my-5" align-center>
             <pre class="text-xs-center" style="font-family: unset; font-size: 30px; margin-bottom: -40px; white-space: pre-line;">
@@ -36,7 +35,7 @@
                   <v-flex xs12 md4 style="margin-bottom: 80px;">
                     <v-card class="elevation-0 transparent">
                       <v-card-text class="text-xs-center">
-                        <v-icon x-large class="blue--text text--lighten-2">cloud_upload</v-icon>
+                        <v-icon x-large class="blue--text text--lighten-2">done</v-icon>
                       </v-card-text>
                       <v-card-title primary-title class="layout justify-center">
                         <div class="headline text-xs-center">Dataset Uploader</div>

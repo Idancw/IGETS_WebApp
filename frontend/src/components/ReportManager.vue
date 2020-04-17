@@ -65,10 +65,13 @@
             this.reportTable = response.data.result
             for (let key in this.reportTable) {
               if (this.reportTable.hasOwnProperty(key)) {
-                let rowInfo = {Date: this.reportTable[key].Date, Time: this.reportTable[key].Time,
-                               Golden: this.reportTable[key].Golden, Candidate: this.reportTable[key].Candidate,
-                               Completed: this.reportTable[key].Completed, State: this.reportTable[key].State,
-                               Report_link: this.reportTable[key].Report_link}
+                let rowInfo = {Date: this.reportTable[key].Date,
+                  Time: this.reportTable[key].Time,
+                  Golden: this.reportTable[key].Golden,
+                  Candidate: this.reportTable[key].Candidate,
+                  Completed: this.reportTable[key].Completed,
+                  State: this.reportTable[key].State,
+                  Report_link: this.reportTable[key].Report_link}
                 this.tableRows.push(rowInfo)
               }
             }

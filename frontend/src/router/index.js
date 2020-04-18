@@ -5,8 +5,6 @@ import ReportManager from '@/components/ReportManager'
 import ReportView from '@/components/ReportView'
 import RunnerManager from '@/components/RunnerManager'
 import Uploader from '@/components/Uploader'
-// import DatasetManager from '@/components/DatasetManager'
-// import Evaluator from '@/components/Evaluator'
 
 Vue.use(Router)
 
@@ -17,7 +15,5 @@ export default new Router({
     { path: '/report/:component_name/report_view', name: 'report_view', component: ReportView },
     { path: '/runner/:run_type', name: 'run_type', component: RunnerManager },
     { path: '/uploader', name: 'uploader', component: Uploader }
-    // { path: '/dataset_manager', name: 'dataset_manager', component: DatasetManager },
-    // { path: '/evaluator', name: 'evaluator', component: Evaluator }
   ]
 })

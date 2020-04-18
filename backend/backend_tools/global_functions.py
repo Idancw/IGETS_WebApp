@@ -1,5 +1,6 @@
 from os import listdir
 
+# TODO: make me global in backend_tools
 components_root_path = '/usr/local/ge/opt/'
 
 

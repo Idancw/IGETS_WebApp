@@ -18,7 +18,7 @@ cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# Globals
+# Globals # TODO: make me global in backend_tools
 # regression_reports_root = '/data/GPC/examinations/regression/'
 # components_root = '/usr/local/ge/opt/'
 components_root = '/Users/idancw/PycharmProjects/IGETS_WebApp/backend/versions/'
@@ -108,6 +108,7 @@ def get_component_report(component_name):
 @app.route('/api/run/<runner_name>', methods=['POST'])
 def run_rets(runner_name):
     if runner_name == 'Regression':
+        # TODO: change the path to currect one (where the prop file should be)
         return_val, return_msg = generate_regression_property_file(request.form, '/Users/idancw/PycharmProjects/IGETS_WebApp/backend/')
         return jsonify({'return': return_val, 'msg': return_msg, 'result': ''})
     return jsonify({'return': 0, 'msg': 'Nothing has been done', 'result': ''})

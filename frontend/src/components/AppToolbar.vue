@@ -9,10 +9,9 @@
     <div class="hidden-sm-and-down">
       <v-select
         v-model="componentSection"
-        :items="options"
+        :items="reportOptions"
         placeholder="Report"
         v-on:change="changeRoutToComponent($event)"
-        persistent-hint
         >
       </v-select>
     </div>
@@ -56,9 +55,12 @@
       return {
         componentSection: '',
         runnerSection: '',
-        options: this.getComponentNamesFromBackend(),
+        reportOptions: [],
         runnerOptions: ['Regression', 'Repeatability', 'Scalability', 'Performance']
       }
+    },
+    created () {
+      this.getComponentNamesFromBackend()
     },
     name: 'AppToolbar',
     methods: {
@@ -66,7 +68,7 @@
         const path = `${BACKEND_URL}/api/get_component_names`
         axios.get(path)
           .then(response => {
-            this.options = response.data.component_names
+            this.reportOptions = response.data.result
           })
           .catch(error => {
             console.log(error)

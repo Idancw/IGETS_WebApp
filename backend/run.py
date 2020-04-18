@@ -71,10 +71,7 @@ def upload(upload_type):
 @app.route('/api/get_component_names')
 def get_component_names():
     component_names = sorted(['ig_prep', 'gpc_recon', 'ig_crop'])  # listdir(PATH_TO_COMPONENTS)
-    response = {
-        'component_names': component_names
-    }
-    return jsonify(response)
+    return jsonify({'return': 0, 'msg': 'success', 'result': component_names})
 
 
 @app.route('/api/get_component_report/<component_name>')
@@ -106,6 +103,14 @@ def get_component_report(component_name):
         report_table[i]['_full_path'] = report_dirs_full[i]
 
     return jsonify({'return': 0, 'msg': 'success', 'result': report_table})
+
+
+@app.route('/api/run/<runner_name>', methods=['POST'])
+def run_rets(runner_name):
+    if runner_name == 'Regression':
+        return_val, return_msg = generate_regression_property_file(request.form, '/Users/idancw/PycharmProjects/IGETS_WebApp/backend/')
+        return jsonify({'return': return_val, 'msg': return_msg, 'result': ''})
+    return jsonify({'return': 0, 'msg': 'Nothing has been done', 'result': ''})
 
 
 @app.route('/api/get_report_html/<report_path>')
